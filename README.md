@@ -8,6 +8,6 @@ https://www.elastic.co/downloads/elasticsearch
 npm install webpack -g
 
 ## To test it
-- Add some Posts your ElasticSearch
+- Configure some Posts in your ElasticSearch
 - Open the file **/src/services/Post.js** and put there your index and type
 - Run `webpack` in your terminal
