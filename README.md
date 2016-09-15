@@ -6,3 +6,8 @@ https://www.elastic.co/downloads/elasticsearch
 
 **To install Webpack:**
 npm install webpack -g
+
+## To test it
+- Add some Posts your ElasticSearch
+- Open the file **/src/services/Post.js** and put there your index and type
+- Run `webpack` in your terminal
