@@ -17,6 +17,6 @@ module.exports = {
     devServer: {
         inline: true,
         contentBase: './public',
-        port: process.env.PORT || 3333
+        port: 3333
     }
 }
