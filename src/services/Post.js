@@ -1,7 +1,7 @@
 import elasticsearch from 'elasticsearch'
 
 const client = elasticsearch.Client({
-    host: process.env.ELASTICSEARCH_URL || 'localhost.dev:9200'
+    host: process.env.ELASTICSEARCH_URL || 'http://localhost:9200'
 });
 
 const Post = {
