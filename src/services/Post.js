@@ -1,6 +1,8 @@
 import elasticsearch from 'elasticsearch'
 
-const client = elasticsearch.Client();
+const client = elasticsearch.Client({
+    host: 'http://localhost:9200'
+});
 
 const Post = {
     search: query => {

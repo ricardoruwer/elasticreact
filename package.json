@@ -1,16 +1,21 @@
 {
   "name": "elasticreact",
+  "version": "0.2.0",
   "description": "Elastic Search & React",
   "keywords": [
     "elasticsearch",
     "react"
   ],
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.2"
   },
   "dependencies": {
     "elasticsearch": "^11.0.1",

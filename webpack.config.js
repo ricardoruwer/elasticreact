@@ -13,5 +13,10 @@ module.exports = {
                 presets: ['es2015', 'react']
             }
         }]
+    },
+    devServer: {
+        inline: true,
+        contentBase: './public',
+        port: 3333
     }
 }
